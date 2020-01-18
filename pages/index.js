@@ -12,7 +12,7 @@ const Home = () => (
 
     <div className="hero">
       <img
-        src="https://chimpstatic.com/mcjs-connected/js/users/3814449e93d5456a4bd90d80c/11195c454430253194d5f66fd.js"
+        src="https://chimpstatic.com/mcjs-connected/js/users/3814449e93d5456a4bd90d80c/8a6db059c8f47161020716682.js"
         alt="mail chimp signup"
       />
     </div>
