@@ -14,7 +14,8 @@ User Flow
 - Observe the results of their minimum needed income pre tax/deductions
 - If they havent already, be offered to create an account to save their information and results.
 
-- Paid Version - user flow
+Paid Version - user flow
+
 - Once the user signs up and pays they get a notification to create a budget.
 - The `Answer prompts about post tax life` from the free version will primarily be filled with the information in this budget
 - Once the budget is filled out another notification will appear for them to fill out their tax and deduction information. This will also fill out most if not all of the `Answer prompts about pre tax and deductions tax life` portion.
