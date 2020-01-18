@@ -26,7 +26,7 @@ Paid Version - user flow
 
 ## MVP Iterations
 
-1. v1 - Landing page with a signup section with brief intro
+1. v1 - Landing page with a signup section with brief intro [x] - 1/18/2019
 2. v2.1 - Create basic form layout for inputs and an output section
 3. v2.2 - Build about page, use original landing page and add routing to app
 4. v2.3 - Add animations to form and loading states
