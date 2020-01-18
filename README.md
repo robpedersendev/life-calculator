@@ -1,5 +1,7 @@
 # life-calculator
 
+[Mailchimp Landing Page Email collector](https://mailchi.mp/ead1b3134e7b/life-calculator)
+
 This repository will be used by Lambda School students to calculate ones minimal pre-tax annual salary needed through a series of questions.
 
 # Planning
