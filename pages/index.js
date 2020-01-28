@@ -34,7 +34,7 @@ const Home = () => (
       }
       body {
         height: auto;
-        background-image: url("/assets/balck_sand_hidden_sun.jpg");
+        background-image: url("/assets/balck_sand_hidden_sun.png");
       }
     `}</style>
   </div>
