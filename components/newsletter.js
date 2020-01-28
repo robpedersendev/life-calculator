@@ -54,13 +54,6 @@ const Newsletter = () => {
           align-items: center;
           flex-wrap: wrap;
           flex-direction: column;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-          position: absolute;
-        }
-        .absolute {
-          position: relative;
         }
       `}</style>
     </div>

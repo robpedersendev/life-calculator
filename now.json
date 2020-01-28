@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "name": "robpedersendev",
+  "public": true,
+  "routes": [
+    {
+      "src": "/balck_sand_hidden_sun.svg",
+      "headers": {
+        "cache-control": "max-age=31536000"
+      }
+    },
+    { "handle": "filesystem" },
+    { "src": "/*/.*", "dest": "/_error" }
+  ]
+}

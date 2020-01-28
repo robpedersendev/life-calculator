@@ -8,6 +8,24 @@ const Home = () => (
   <div className="body">
     <Head>
       <title>Home</title>
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      ></link>
+
+      <title>Your Website Title</title>
+
+      <meta property="og:url" content="https://life-calculator.now.sh/" />
+      <meta property="og:type" content="website" />
+      <meta property="og:title" content="Life Calculator" />
+      <meta
+        property="og:description"
+        content="Lambda School Students know that their payments dont start til they land a job making $50,000 ($4,166/month). But many do not know what their ideal salary needs to be both pre and post tax. This project aims to solve that."
+      />
+      <meta
+        property="og:image"
+        content="https://www.your-domain.com/path/image.jpg"
+      />
     </Head>
 
     <div className="hero">
@@ -24,7 +42,9 @@ const Home = () => (
         flex-wrap: wrap;
         flex-direction: column;
       }
-
+      .hero {
+        width: 100%;
+      }
       .centered_oneline {
         display: flex;
         justify-content: center;
@@ -39,6 +59,11 @@ const Home = () => (
         background-repeat: no-repeat; /* Do not repeat the image */
         background-size: cover; /* Resize the background image to cover the entire container */
         height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
       }
     `}</style>
   </div>
