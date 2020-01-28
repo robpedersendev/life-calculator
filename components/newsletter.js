@@ -55,6 +55,9 @@ const Newsletter = () => {
           flex-wrap: wrap;
           flex-direction: column;
         }
+        h2 {
+          color: white;
+        }
       `}</style>
     </div>
   );

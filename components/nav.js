@@ -3,9 +3,10 @@ import Link from "next/link";
 
 const links = [
   {
-    href: "https://github.com/robpedersendev/life-calculator",
+    href:
+      "https://twitter.com/intent/tweet?text=I%20am%20excited%20to%20know%20my%20minimal%20needed%20pretax%20income?hashtag=LifeCalculator",
     label: "Twitter",
-    className: "twitter",
+    className: "twitter-share-button",
     alt: "twitter logo",
     img: "/assets/twitter.png"
   },
@@ -26,7 +27,7 @@ const links = [
   }
 ].map(link => ({
   ...link,
-  key: `nav-link-${link.href}-${link.label}-${link.className}-${link.alt}`
+  key: `nav-link-${link.href}-${link.label}-${link.className}-${link.alt}-${link.img}`
 }));
 
 const Nav = () => (
@@ -37,10 +38,11 @@ const Nav = () => (
           <a>Home</a>
         </Link>
       </li> */}
-      {links.map(({ key, href, label, className, alt }) => (
+      {links.map(({ key, href, label, className, alt, img }) => (
         <li key={key}>
-          <a href={href} alt={alt} className={className}>
-            {label}
+          <a href={href} className={className}>
+            <p>{label}</p>
+            <img src={img} alt={alt} />
           </a>
         </li>
       ))}
@@ -74,7 +76,7 @@ const Nav = () => (
       a:active {
         color: white;
         text-decoration: none;
-        font-size: 5vw;
+        font-size: 3vw;
         font-weight: bold;
         text-shadow: 2px 2px 10px black;
       }
@@ -84,7 +86,20 @@ const Nav = () => (
         text-decoration-color: white;
         text-shadow: 2px 2px 10px white;
         font-weight: bolder;
-        font-size: 10vw;
+        font-size: 3vw;
+      }
+      a {
+        display: flex;
+        align-items: center;
+        align-content: center;
+        flex-direction: column;
+        justify-content: center;
+      }
+      img {
+        border-radius: 25px;
+        width: 5vw;
+        box-shadow: 1px 1px 30px white;
+        height: 65%;
       }
     `}</style>
   </nav>

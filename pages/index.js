@@ -20,11 +20,11 @@ const Home = () => (
       <meta property="og:title" content="Life Calculator" />
       <meta
         property="og:description"
-        content="Lambda School Students know that their payments dont start til they land a job making $50,000 ($4,166/month). But many do not know what their ideal salary needs to be both pre and post tax. This project aims to solve that."
+        content="Do you know what your ideal salary is both pre and post tax is? If not, I hope to help answer that question with you."
       />
       <meta
         property="og:image"
-        content="https://www.your-domain.com/path/image.jpg"
+        content="https://life-calculator.now.sh/assets/balck_sand_hidden_sun.png"
       />
     </Head>
 
