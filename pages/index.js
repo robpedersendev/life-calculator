@@ -32,9 +32,13 @@ const Home = () => (
         flex-wrap: wrap;
         flex-direction: column;
       }
-      body {
+      .body {
         height: auto;
         background-image: url("/assets/balck_sand_hidden_sun.png");
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+        height: 100vh;
       }
     `}</style>
   </div>
