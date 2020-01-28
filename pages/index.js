@@ -14,10 +14,6 @@ const Home = () => (
       <div className="centered">
         <Newsletter className="centered_oneline" />
       </div>
-      <img
-        src="/assets/balck_sand_hidden_sun.png"
-        alt="gorgeous view of mountains"
-      />
     </div>
     <Nav />
     <style jsx>{`
@@ -36,7 +32,7 @@ const Home = () => (
         flex-wrap: wrap;
         flex-direction: column;
       }
-      .body {
+      body {
         height: auto;
         background-image: url("/assets/balck_sand_hidden_sun.jpg");
       }
