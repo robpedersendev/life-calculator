@@ -9,7 +9,7 @@ const Newsletter = () => {
 
   return (
     <div className="absolute">
-      <h2>Signup to be notified when we launch</h2>
+      <h1>Signup to be notified when we launch</h1>
 
       <MailchimpSubscribe
         className="centered"

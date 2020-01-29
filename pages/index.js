@@ -1,6 +1,6 @@
 import React from "react";
 import Head from "next/head";
-import Nav from "../components/nav";
+import Sharing from "../components/sharing";
 import Newsletter from "../components/newsletter";
 // import BlackSandHiddenSun from "../assets/balck_sand_hidden_sun.jpg";
 
@@ -13,14 +13,14 @@ const Home = () => (
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
       ></link>
 
-      <title>Your Website Title</title>
+      <title>Life Calculator</title>
 
       <meta property="og:url" content="https://life-calculator.now.sh/" />
       <meta property="og:type" content="website" />
       <meta property="og:title" content="Life Calculator" />
       <meta
         property="og:description"
-        content="Do you know what your ideal salary is both pre and post tax is? If not, I hope to help answer that question with you."
+        content="Do you know what your ideal salary is both pre and post tax? If not, I hope to help answer that question with you."
       />
       <meta
         property="og:image"
@@ -33,7 +33,7 @@ const Home = () => (
         <Newsletter className="centered_oneline" />
       </div>
     </div>
-    <Nav />
+    <Sharing />
     <style jsx>{`
       .centered {
         display: flex;
